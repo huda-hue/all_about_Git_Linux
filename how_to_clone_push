@@ -1,0 +1,20 @@
+// buah dulu repo kosong di github
+// lalu clone
+bash-$ git clone git@github.com:username/nama-repo.git
+// cek versi remote
+bash-$ git remote -v
+// pasti repo ini sudah terhubung dengan repo di github, sehingga ketika push origin akan langsung ke repo ini (di github)
+// setelah berhasil clone, buat dan edit file yang Anda mau di dalam repo tersebut
+
+// setelah selesai edit, kita push remote di github (agar github terupdate)
+bash-$ git add .
+// cek status git
+bash-$ git status
+// lakukan updating di repo lokal
+bash-$ git commit -m "Update"
+// cek branch repo
+bash-$ git branch
+// jika "main", maka push dengan cara
+bash-$ git push origin main
+// jika "master", maka push dengan cara
+bash-$ git push origin master
