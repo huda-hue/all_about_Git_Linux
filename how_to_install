@@ -1,0 +1,6 @@
+// update dulu
+bash-$ sudo apt update
+// install git
+bash-$ sudo apt install git
+// cek versi
+bash-$ git --version
